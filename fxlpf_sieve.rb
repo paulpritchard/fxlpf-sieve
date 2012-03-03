@@ -17,7 +17,6 @@
 #    For a more transparent presentation of the algorithm, see the recursive version.
 #
 def primes_up_to (limit)
-# array of primes <= limit, in increasing order
   lpf = []
   p = [nil]
 

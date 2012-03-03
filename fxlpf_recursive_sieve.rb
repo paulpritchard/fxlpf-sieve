@@ -17,7 +17,6 @@
 #    So, for example, the even composites are not ignored.
 #
 def primes_up_to (limit, primes)
-# Given an empty array p, sets p to the primes <= limit in ascending order.
   primes_up_to(Math.sqrt(limit),primes) unless limit < 2
   lpf = []
   for f in 2..(limit/2) # co-factor
